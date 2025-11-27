@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tishan Yasiru Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="particle-canvas"></canvas>
+
+    <nav class="container">
+        <a href="#" class="logo">
+            <svg width="84" height="24" viewBox="0 0 84 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 22H22L12 2Z" fill="#ffffff" />
+            </svg>
+        </a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+        </div>
+        <a href="mailto:tishanyasiru@outlook.com" class="cta-button">Contact Me</a>
+    </nav>
+
+    <header class="hero container" id="about">
+        <p class="hero-intro">HELLO! I AM</p>
+        <h1 class="hero-name">TISHAN YASIRU</h1>
+        <div class="hero-bio">
+            <p>Data Science Undergraduate | AI & ML Enthusiast</p>
+            <p>I'm passionate about developing efficient, scalable solutions to streamline complex tasks and address
+                data science challenges.</p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/tishanyasirup" target="_blank" class="social-icon"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/itzTiru" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="mailto:tishanyasiru@outlook.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <a href="#projects" class="cta-button gravity-btn" id="view-projects-btn">View Projects</a>
+    </header>
+
+    <section id="interests" class="container">
+        <div class="section-header">
+            <h2 class="section-title">Areas of Interest</h2>
+            <p class="section-subtitle">Take a look at some of the things I love working on.</p>
+        </div>
+        <div class="interests-grid">
+            <div class="interest-item">
+                <i class="fas fa-chart-line interest-icon"></i>
+                <h3>Data Analytics</h3>
+                <p>Turning raw data into clear, actionable insights.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-cogs interest-icon"></i>
+                <h3>Feature Engineering & Data Pipelines</h3>
+                <p>Cleaning and transforming raw data into useful model features.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-comments interest-icon"></i>
+                <h3>NLP</h3>
+                <p>Making sense of text with sentiment, topics, and classifiers.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-robot interest-icon"></i>
+                <h3>Machine Learning</h3>
+                <p>Building and tuning models that actually work.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-thumbs-up interest-icon"></i>
+                <h3>Recommender Systems</h3>
+                <p>Creating smart “you might like this” suggestions.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-project-diagram interest-icon"></i>
+                <h3>Deep Learning</h3>
+                <p>Training neural nets and fine-tuning transformers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">PROJECTS</h2>
+        <div class="projects-grid">
+            <!-- Project 1: LearnLinkAI -->
+            <div class="project-card">
+                <div class="card-header">
+                    <h3>LearnLinkAI Internal System</h3>
+                    <span class="project-topic">AI-Powered Educational Recommender</span>
+                </div>
+                <p>An AI-driven platform using LLMs and NLP to personalize learning content from YouTube, Coursera,
+                    Udemy, Wikipedia, and arXiv. Features semantic search via Pinecone, secure JWT authentication, and
+                    real-time WebSocket delivery for tailored educational experiences across all learner levels.</p>
+                <div class="tech-stack-tags">
+                    <span class="tech-tag">Python (FastAPI)</span>
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">LLMs</span>
+                    <span class="tech-tag">NLP (spaCy/BERT)</span>
+                    <span class="tech-tag">Pinecone</span>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/itzTiru/LearnLinkAI-internal-system-client" target="_blank"
+                        class="forward-btn"><i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2: Emergency Call SER -->
+            <div class="project-card">
+                <div class="card-header">
+                    <h3>Emergency Call SER Incident Analyze</h3>
+                    <span class="project-topic">Speech Emotion Recognition for Emergency Calls</span>
+                </div>
+                <p>Analyzes emergency call audio for stress, emotions, speaker diarization, and critical incidents using
+                    SER and APIs. Scores dispatcher performance, assesses threat levels, extracts key info, and
+                    generates interactive visualizations and reports to enhance dispatch center efficiency.</p>
+                <div class="tech-stack-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Streamlit</span>
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">AssemblyAI API</span>
+                    <span class="tech-tag">Librosa/OpenSMILE</span>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/itzTiru/emergency-call-SER-incident-analyze" target="_blank"
+                        class="forward-btn"><i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 3: Knowledge Graph NLP -->
+            <div class="project-card">
+                <div class="card-header">
+                    <h3>Knowledge Graph NLP Pipeline</h3>
+                    <span class="project-topic">End-to-End Knowledge Graph Construction</span>
+                </div>
+                <p>Processes PDFs, text, and HTML to extract entities/relations via BERT NER, builds Neo4j graphs,
+                    enables reasoning with NetworkX, and offers interactive Streamlit visualizations for exploring and
+                    querying extracted knowledge structures.</p>
+                <div class="tech-stack-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Neo4j</span>
+                    <span class="tech-tag">Streamlit</span>
+                    <span class="tech-tag">spaCy/BERT</span>
+                    <span class="tech-tag">NetworkX</span>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/itzTiru/knowledge-graph-NLP-pipeline" target="_blank"
+                        class="forward-btn"><i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 4: Telco Churn Prediction -->
+            <div class="project-card">
+                <div class="card-header">
+                    <h3>Telco Churn Prediction</h3>
+                    <span class="project-topic">Telecom Customer Churn Classification</span>
+                </div>
+                <p>ML-based model predicts telecom churn with feature insights via an interactive Streamlit app,
+                    enabling data analysis, visualization, and proactive retention strategies for customer datasets.</p>
+                <div class="tech-stack-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Streamlit</span>
+                    <span class="tech-tag">Scikit-learn</span>
+                    <span class="tech-tag">Pandas/Matplotlib</span>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/itzTiru/Telco-churn-prediction" target="_blank" class="forward-btn"><i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 5: Wijesundara ERP -->
+            <div class="project-card">
+                <div class="card-header">
+                    <h3>Wijesundara ERP Internal System</h3>
+                    <span class="project-topic">Rice Mill Enterprise Resource Planning</span>
+                </div>
+                <p>Comprehensive ERP web app for Wijesundara Rice Mill, handling inventory, orders, transportation,
+                    accounting, HR, CRM, and suppliers. Includes custom tools for stock tracking, task assignment,
+                    bidding, and real-time operational efficiency across departments.</p>
+                <div class="tech-stack-tags">
+                    <span class="tech-tag">Node.js/Express</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">SQL/Database</span>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/buddhika-development/wijesundara-erp-internal-system-client"
+                        target="_blank" class="forward-btn"><i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2 class="section-title">SKILLS</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-pill">Python</span>
+                    <span class="skill-pill">Java</span>
+                    <span class="skill-pill">HTML/CSS</span>
+                    <span class="skill-pill">JavaScript</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Frontend & Backend</h3>
+                <div class="skill-tags">
+                    <span class="skill-pill">Next.js</span>
+                    <span class="skill-pill">React.js</span>
+                    <span class="skill-pill">FastAPI</span>
+                    <span class="skill-pill">Node.js</span>
+                    <span class="skill-pill">ExpressJS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI & Data</h3>
+                <div class="skill-tags">
+                    <span class="skill-pill">PyTorch</span>
+                    <span class="skill-pill">Scikit-learn</span>
+                    <span class="skill-pill">Pandas</span>
+                    <span class="skill-pill">NumPy</span>
+                    <span class="skill-pill">Matplotlib</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Cloud & Tools</h3>
+                <div class="skill-tags">
+                    <span class="skill-pill">AWS</span>
+                    <span class="skill-pill">Azure</span>
+                    <span class="skill-pill">Terraform</span>
+                    <span class="skill-pill">Docker</span>
+                    <span class="skill-pill">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tishan Yasiru </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
