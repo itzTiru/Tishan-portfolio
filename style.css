@@ -291,71 +291,6 @@ html.motion-freeze-preview .motion-toggle:hover {
     margin-bottom: 42px;
 }
 
-.fde-overview {
-    max-width: 940px;
-    margin: 28px auto 36px;
-    padding: 0 0 34px;
-    border-bottom: 1px solid #e3e7eb;
-}
-
-.fde-kicker {
-    font-family: var(--font-code);
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    color: var(--text-primary);
-    margin-bottom: 18px;
-}
-
-.fde-summary {
-    color: var(--text-secondary);
-    font-size: 1.06rem;
-    line-height: 1.75;
-    max-width: 920px;
-    margin-bottom: 24px;
-}
-
-.fde-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 24px 44px;
-}
-
-.fde-column h3 {
-    font-size: 1.04rem;
-    line-height: 1.4;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--text-primary);
-    margin-bottom: 10px;
-}
-
-.fde-column ul {
-    list-style: none;
-    display: grid;
-    gap: 8px;
-}
-
-.fde-column li {
-    position: relative;
-    padding-left: 14px;
-    color: var(--text-secondary);
-    font-size: 0.98rem;
-    line-height: 1.58;
-}
-
-.fde-column li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0.68em;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: #7aa6f7;
-}
-
 .experience-timeline {
     max-width: 940px;
     margin: 0 auto;
@@ -767,10 +702,6 @@ footer {
 
 /* Responsive */
 @media (max-width: 1024px) {
-    .fde-overview {
-        display: none;
-    }
-
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }

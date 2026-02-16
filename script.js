@@ -557,7 +557,7 @@ if (canvas && ctx) {
         });
     });
 
-    const revealSelector = '.project-card, .section-title, .fde-overview, .fde-column, .experience-entry, .skills-intro, .skill-lane';
+    const revealSelector = '.project-card, .section-title, .experience-entry, .skills-intro, .skill-lane';
     const revealElements = document.querySelectorAll(revealSelector);
 
     if ('IntersectionObserver' in window) {
