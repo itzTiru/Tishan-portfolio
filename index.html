@@ -25,63 +25,143 @@
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
         </div>
-        <a href="mailto:tishanyasiru@outlook.com" class="cta-button">Contact Me</a>
+        <div class="nav-actions">
+            <button type="button" class="motion-toggle" id="motion-toggle" aria-pressed="false"
+                aria-label="Enable reduced motion">Motion: Full</button>
+            <a href="mailto:tishanyasiru@outlook.com" class="cta-button nav-cta"><i class="fas fa-paper-plane"
+                    aria-hidden="true"></i><span>Contact Me</span></a>
+        </div>
     </nav>
 
     <header class="hero container" id="about">
         <p class="hero-intro">HELLO! I AM</p>
         <h1 class="hero-name">TISHAN YASIRU</h1>
         <div class="hero-bio">
-            <p>Data Science Undergraduate | AI & ML Enthusiast</p>
+            <p>Data Science Undergraduate | AI/ML Forward Deployed Engineer</p>
             <p>I'm passionate about developing efficient, scalable solutions to streamline complex tasks and address
                 data science challenges.</p>
         </div>
 
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/tishanyasirup" target="_blank" class="social-icon"><i
+            <a href="https://www.linkedin.com/in/tishanyasirup" target="_blank" rel="noopener noreferrer" class="social-icon" data-social="linkedin"><i
                     class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/itzTiru" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
-            <a href="mailto:tishanyasiru@outlook.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/itzTiru" target="_blank" rel="noopener noreferrer" class="social-icon" data-social="github"><i class="fab fa-github"></i></a>
+            <a href="mailto:tishanyasiru@outlook.com" class="social-icon" data-social="email"><i class="fas fa-envelope"></i></a>
         </div>
 
         <a href="#projects" class="cta-button gravity-btn" id="view-projects-btn">View Projects</a>
     </header>
 
+    <section id="experience" class="container">
+        <h2 class="section-title">EXPERIENCE</h2>
+        <div class="experience-timeline">
+            <article class="experience-entry">
+                <div class="experience-head">
+                    <h3 class="experience-role">Associate AI/ML Forward Deployed Engineer</h3>
+                    <div class="experience-meta">
+                        <p class="experience-company"><a href="https://www.realaization.com/" target="_blank"
+                                rel="noopener noreferrer">RealAIzation</a></p>
+                        <p class="experience-date">Dec 2025 - Present</p>
+                    </div>
+                </div>
+                <p class="experience-desc">Designing and deploying production-ready GenAI capabilities for a novel
+                    DevOps automation suite.</p>
+            </article>
+        </div>
+        <article class="fde-overview">
+            <p class="fde-kicker">AI FORWARD DEPLOYED ENGINEERING</p>
+            <p class="fde-summary">
+                As an AI/ML Forward Deployed Engineer, I serve as the technical bridge between AI capabilities and
+                strategic customers, embedding directly with client teams to architect, deploy, and scale custom AI
+                solutions in production environments.
+            </p>
+            <div class="fde-grid">
+                <section class="fde-column">
+                    <h3>Customer Integration & Deployment</h3>
+                    <ul>
+                        <li>Partner with enterprise customers to understand technical infrastructure, data pipelines, and business requirements.</li>
+                        <li>Design custom integrations between AI platforms and customer data environments (cloud, warehouses, and APIs).</li>
+                        <li>Deploy AI models within customer security and compliance boundaries.</li>
+                    </ul>
+                </section>
+                <section class="fde-column">
+                    <h3>AI Agent & Solution Development</h3>
+                    <ul>
+                        <li>Develop production-grade AI agents for customer support, data analysis, and workflow automation.</li>
+                        <li>Architect multi-agent systems orchestrating models, tools, and data sources.</li>
+                        <li>Implement evaluation frameworks and human-in-the-loop workflows for continuous improvement.</li>
+                    </ul>
+                </section>
+                <section class="fde-column">
+                    <h3>Technical Leadership</h3>
+                    <ul>
+                        <li>Serve as the primary technical point of contact for strategic enterprise accounts.</li>
+                        <li>Provide technical training and knowledge transfer to customer teams.</li>
+                        <li>Translate customer needs into product improvements.</li>
+                    </ul>
+                </section>
+                <section class="fde-column">
+                    <h3>Prompt Engineering & Optimization</h3>
+                    <ul>
+                        <li>Create sophisticated prompt engineering strategies optimized for customer domains.</li>
+                        <li>Conduct systematic prompt experimentation and A/B testing.</li>
+                        <li>Implement RAG systems and fine-tuning pipelines where appropriate.</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+    </section>
+
     <section id="interests" class="container">
         <div class="section-header">
             <h2 class="section-title">Areas of Interest</h2>
-            <p class="section-subtitle">Take a look at some of the things I love working on.</p>
+            <p class="section-subtitle">Problem spaces I enjoy building and shipping in.</p>
         </div>
         <div class="interests-grid">
             <div class="interest-item">
-                <i class="fas fa-chart-line interest-icon"></i>
-                <h3>Data Analytics</h3>
-                <p>Turning raw data into clear, actionable insights.</p>
+                <i class="fas fa-microchip interest-icon"></i>
+                <h3>AI Agents & Automation</h3>
+                <p>Designing autonomous workflows that orchestrate tools, reason over context, and automate execution.</p>
             </div>
             <div class="interest-item">
-                <i class="fas fa-cogs interest-icon"></i>
-                <h3>Feature Engineering & Data Pipelines</h3>
-                <p>Cleaning and transforming raw data into useful model features.</p>
+                <i class="fas fa-server interest-icon"></i>
+                <h3>MLOps & Model Monitoring</h3>
+                <p>Operationalizing ML systems with reliable deployment workflows, observability, and performance tracking.</p>
             </div>
             <div class="interest-item">
                 <i class="fas fa-comments interest-icon"></i>
-                <h3>NLP</h3>
-                <p>Making sense of text with sentiment, topics, and classifiers.</p>
+                <h3>Natural Language Processing (NLP)</h3>
+                <p>Building language systems for classification, information extraction, summarization, and semantic search.</p>
             </div>
             <div class="interest-item">
                 <i class="fas fa-robot interest-icon"></i>
                 <h3>Machine Learning</h3>
-                <p>Building and tuning models that actually work.</p>
+                <p>Developing and tuning robust models that generalize well and deliver measurable impact.</p>
             </div>
             <div class="interest-item">
                 <i class="fas fa-thumbs-up interest-icon"></i>
                 <h3>Recommender Systems</h3>
-                <p>Creating smart “you might like this” suggestions.</p>
+                <p>Designing personalized recommendation engines that improve discovery, engagement, and retention.</p>
             </div>
             <div class="interest-item">
                 <i class="fas fa-project-diagram interest-icon"></i>
                 <h3>Deep Learning</h3>
-                <p>Training neural nets and fine-tuning transformers.</p>
+                <p>Training deep neural networks and fine-tuning transformer models for complex prediction tasks.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-chart-area interest-icon"></i>
+                <h3>Time Series Forecasting</h3>
+                <p>Building forecasting models for demand, operations, and trend prediction using temporal data.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-cogs interest-icon"></i>
+                <h3>Feature Engineering & Data Pipelines</h3>
+                <p>Designing reliable pipelines that clean, enrich, and transform raw data into model-ready features.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-chart-line interest-icon"></i>
+                <h3>Data Analytics</h3>
+                <p>Converting messy, high-volume data into decision-ready insights and performance metrics.</p>
             </div>
         </div>
     </section>
@@ -106,7 +186,7 @@
                     <span class="tech-tag">Pinecone</span>
                 </div>
                 <div class="card-footer">
-                    <a href="https://github.com/itzTiru/LearnLinkAI-internal-system-client" target="_blank"
+                    <a href="https://github.com/itzTiru/LearnLinkAI-internal-system-client" target="_blank" rel="noopener noreferrer"
                         class="forward-btn"><i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -128,7 +208,7 @@
                     <span class="tech-tag">Librosa/OpenSMILE</span>
                 </div>
                 <div class="card-footer">
-                    <a href="https://github.com/itzTiru/emergency-call-SER-incident-analyze" target="_blank"
+                    <a href="https://github.com/itzTiru/emergency-call-SER-incident-analyze" target="_blank" rel="noopener noreferrer"
                         class="forward-btn"><i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -150,7 +230,7 @@
                     <span class="tech-tag">NetworkX</span>
                 </div>
                 <div class="card-footer">
-                    <a href="https://github.com/itzTiru/knowledge-graph-NLP-pipeline" target="_blank"
+                    <a href="https://github.com/itzTiru/knowledge-graph-NLP-pipeline" target="_blank" rel="noopener noreferrer"
                         class="forward-btn"><i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -170,7 +250,7 @@
                     <span class="tech-tag">Pandas/Matplotlib</span>
                 </div>
                 <div class="card-footer">
-                    <a href="https://github.com/itzTiru/Telco-churn-prediction" target="_blank" class="forward-btn"><i
+                    <a href="https://github.com/itzTiru/Telco-churn-prediction" target="_blank" rel="noopener noreferrer" class="forward-btn"><i
                             class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -191,59 +271,68 @@
                 </div>
                 <div class="card-footer">
                     <a href="https://github.com/buddhika-development/wijesundara-erp-internal-system-client"
-                        target="_blank" class="forward-btn"><i class="fas fa-arrow-right"></i></a>
+                        target="_blank" rel="noopener noreferrer" class="forward-btn"><i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="skills" class="container">
-        <h2 class="section-title">SKILLS</h2>
-        <div class="skills-grid">
-            <div class="skill-category">
-                <h3>Languages</h3>
-                <div class="skill-tags">
+        <div class="skills-header">
+            <h2 class="section-title">TECH STACK</h2>
+            <p class="skills-intro">Production-focused toolkit for building and deploying modern AI products.</p>
+        </div>
+        <div class="skills-lanes">
+            <article class="skill-lane" data-lane="core">
+                <div class="lane-head">
+                    <h3>Core</h3>
+                </div>
+                <div class="lane-chips">
                     <span class="skill-pill">Python</span>
-                    <span class="skill-pill">Java</span>
-                    <span class="skill-pill">HTML/CSS</span>
-                    <span class="skill-pill">JavaScript</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3>Frontend & Backend</h3>
-                <div class="skill-tags">
-                    <span class="skill-pill">Next.js</span>
-                    <span class="skill-pill">React.js</span>
                     <span class="skill-pill">FastAPI</span>
-                    <span class="skill-pill">Node.js</span>
-                    <span class="skill-pill">ExpressJS</span>
+                    <span class="skill-pill">Rust</span>
+                    <span class="skill-pill">SvelteKit</span>
                 </div>
-            </div>
-            <div class="skill-category">
-                <h3>AI & Data</h3>
-                <div class="skill-tags">
+            </article>
+            <article class="skill-lane" data-lane="agentic">
+                <div class="lane-head">
+                    <h3>Agentic AI</h3>
+                </div>
+                <div class="lane-chips">
+                    <span class="skill-pill">Agno</span>
+                    <span class="skill-pill">PydanticAI</span>
+                    <span class="skill-pill">CrewAI</span>
+                    <span class="skill-pill">Google ADK</span>
+                </div>
+            </article>
+            <article class="skill-lane" data-lane="ml-llm">
+                <div class="lane-head">
+                    <h3>ML & LLM</h3>
+                </div>
+                <div class="lane-chips">
+                    <span class="skill-pill">QLoRA</span>
+                    <span class="skill-pill">PEFT</span>
                     <span class="skill-pill">PyTorch</span>
-                    <span class="skill-pill">Scikit-learn</span>
-                    <span class="skill-pill">Pandas</span>
-                    <span class="skill-pill">NumPy</span>
-                    <span class="skill-pill">Matplotlib</span>
+                    <span class="skill-pill">Hugging Face</span>
+                    <span class="skill-pill">RAG</span>
                 </div>
-            </div>
-            <div class="skill-category">
-                <h3>Cloud & Tools</h3>
-                <div class="skill-tags">
-                    <span class="skill-pill">AWS</span>
-                    <span class="skill-pill">Azure</span>
-                    <span class="skill-pill">Terraform</span>
-                    <span class="skill-pill">Docker</span>
-                    <span class="skill-pill">Git</span>
+            </article>
+            <article class="skill-lane" data-lane="infra">
+                <div class="lane-head">
+                    <h3>Infrastructure</h3>
                 </div>
-            </div>
+                <div class="lane-chips">
+                    <span class="skill-pill">AWS Lambda</span>
+                    <span class="skill-pill">Fargate</span>
+                    <span class="skill-pill">Vercel</span>
+                    <span class="skill-pill">GCP Vertex</span>
+                </div>
+            </article>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Tishan Yasiru </p>
+        <p>&copy; <span id="current-year">2025</span> Tishan Yasiru</p>
     </footer>
 
     <script src="script.js"></script>
