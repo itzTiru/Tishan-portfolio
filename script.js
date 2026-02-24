@@ -125,7 +125,7 @@ if (canvas && ctx) {
         if (reducedMotion) return 110;
         if (isMobileViewport || isCoarsePointer) return 220;
         if (isTabletViewport) return 420;
-        return 920;
+        return 620;
     }
 
     function getEmitPerFrame() {
@@ -136,7 +136,7 @@ if (canvas && ctx) {
         if (reducedMotion) return 0;
         if (isMobileViewport || isCoarsePointer) return 2;
         if (isTabletViewport) return 3;
-        return 6;
+        return 3;
     }
 
     function getMouseDistance() {
